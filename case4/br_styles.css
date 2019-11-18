@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: 
+   Date: 
+	
+   Filename: br_styles.css
+
+*/
+html {
+	background-image: url(br_paper.png);
+}
+body {
+	width: 90%;
+	margin: 0px auto 0px auto;
+}
+
+nav ul.topNav {
+	list-style-type: none;
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(151, 151, 151);
+}
+ul.topNav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+div.row {
+	width: 100%;
+}
+div.row:after {
+	clear: both;
+	content: "";
+	display: table;
+	float: left;
+}
